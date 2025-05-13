@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import allNavData from "../../../data/navData.json";
+import allNavDataOcco from "../../../data/navData_Occo.json";
 import Preloader from "@/components/preloader/Preloader";
 import CommonAnimation from "../CommonAnimation";
 import ScrollSmootherComponents from "../ScrollSmootherComponents";
@@ -10,6 +11,7 @@ import Header1 from "@/components/header/Header1";
 import Footer1 from "@/components/footer/Footer1";
 import Header2 from "@/components/header/Header2";
 import Header3 from "@/components/header/Header3";
+import Header3_Occo from "@/components/header/Header3_Occo";
 import Header4 from "@/components/header/Header4";
 import Header5 from "@/components/header/Header5";
 import Footer2 from "@/components/footer/Footer2";
@@ -17,13 +19,15 @@ import Footer3 from "@/components/footer/Footer3";
 import Footer4 from "@/components/footer/Footer4";
 import Footer5 from "@/components/footer/Footer5";
 
-const HeaderContent = ({ header, navData }) => {
+const HeaderContent = ({ header, navData, navDataOcco }) => {
   if (header == "header1") {
     return <Header1 navData={navData} />;
   } else if (header == "header2") {
     return <Header2 navData={navData} />;
   } else if (header == "header3") {
     return <Header3 />;
+  } else if (header == "header3occo") {
+    return <Header3_Occo navDataOcco={navDataOcco} />;
   } else if (header == "header4") {
     return <Header4 navData={navData} />;
   } else if (header == "header5") {
@@ -60,11 +64,13 @@ export default function RootLayout({
 }) {
   const [mode, setMode] = useState(defaultMode);
   const [navData, setNavData] = useState({});
+  const [navDataOcco, setNavDataOcco] = useState({});
 
   const cursor1 = useRef();
   const cursor2 = useRef();
   useEffect(() => {
     setNavData(allNavData);
+    setNavDataOcco(allNavDataOcco);
     if (typeof window !== "undefined") {
       if (mode == "dark") {
         document.querySelector("body").classList.add("dark");
@@ -90,7 +96,7 @@ export default function RootLayout({
           cursor2={cursor2}
         />
         <ScrollTop />
-        <HeaderContent header={header} navData={navData} />
+        <HeaderContent header={header} navData={navData} navDataOcco={navDataOcco} />
         <div id="smooth-wrapper">
           <div id="smooth-content">
             {children}

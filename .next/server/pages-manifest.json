@@ -2,5 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/occo2": "pages/occo2.js"
+  "/occo3/contact": "pages/occo3/contact.js",
+  "/occo3/legal": "pages/occo3/legal.js",
+  "/occo3/terms": "pages/occo3/terms.js"
 }

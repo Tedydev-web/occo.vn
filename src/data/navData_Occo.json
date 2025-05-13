@@ -1,0 +1,56 @@
+{
+  "nav": [
+    {
+      "nav_name": "Trang chủ",
+      "link": "/digital-marketing",
+      "type": "megamenu",
+      "full_width": false
+    },
+    {
+      "nav_name": "Giới thiệu",
+      "link": "/about",
+      "type": "",
+      "sub_nav": []
+    },
+    {
+      "nav_name": "Trang",
+      "link": "/about",
+      "type": "megamenu",
+      "full_width": true
+    },
+    {
+      "nav_name": "Dịch vụ",
+      "link": "/service",
+      "type": "dropdown"
+    },
+    {
+      "nav_name": "Blog",
+      "link": "blog",
+      "type": "dropdown",
+      "sub_nav": [
+        {
+          "name": "Blog",
+          "link": "/blog"
+        },
+        {
+          "name": "Blog V2",
+          "link": "/blog-v2"
+        },
+        {
+          "name": "Category",
+          "link": "/category"
+        },
+        {
+          "name": "Blog Details",
+          "link": "/blog-details"
+        }
+      ]
+    },
+    {
+      "nav_name": "Contact",
+      "link": "/contact",
+      "type": "",
+      "sub_nav": []
+    }
+  ]
+}

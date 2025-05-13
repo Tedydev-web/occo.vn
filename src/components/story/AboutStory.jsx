@@ -23,22 +23,10 @@ const AboutStory = () => {
               <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                 <div className="story__text">
                   <p>
-                    Your brand is the most important asset in your company let
-                    our team of professionals help you with a good strategy took
-                    the runway next with an edgy collection featuring dyed denim
-                    pieces. The collection included patchwork denim, a trend
-                    that has recently exploded in younger generations. Playing
-                    on aspects of sustainability, the pieces appeared to be
-                    upcycled to establish dimension and flair. This take on
-                    grunge and streetwear took sustainable fashion to an
-                    entirely new level.
+                    OCCO là mạng xã hội thế hệ mới, nơi mọi người có thể kết nối, chia sẻ và khám phá những giá trị cộng đồng đa sắc màu. Chúng tôi tin rằng mỗi cá nhân đều xứng đáng được lắng nghe và truyền cảm hứng.
                   </p>
                   <p>
-                    ur specialized team of researchers, strategists, designers,
-                    developers, and project managers work with streamlined
-                    processes to break through organizational roadblocks. We
-                    translate research into solutions, crafting thoughtful and
-                    unified brands.
+                    Đội ngũ OCCO luôn đặt sự sáng tạo, bảo mật và trải nghiệm người dùng lên hàng đầu. Sứ mệnh của chúng tôi là xây dựng một không gian an toàn, hiện đại, thúc đẩy sự gắn kết và phát triển cộng đồng, giúp bạn mở rộng mạng lưới và lan tỏa giá trị tích cực.
                   </p>
                 </div>
               </div>

@@ -42,55 +42,41 @@ const AboutTestimonial = () => {
                       <div className="testimonial__slide">
                         <div className="testimonial__inner-2">
                           <h2 className="testimonial__title-2">
-                            Amazing digital service
+                            OCCO giúp tôi kết nối với rất nhiều bạn mới
                           </h2>
                           <p className="testimonial__text-2">
-                            We were there right at the beginning just when the
-                            concept for search engine optimisation taking office
-                            and the full of internet. So wewe’ve grown to employ
-                            than 50 talented specialists with diverse
-                            experiences and broad skill sets of huge markers.
+                            Từ khi sử dụng OCCO, mình đã mở rộng mạng lưới bạn bè, tham gia nhiều sự kiện ý nghĩa và cảm thấy an toàn khi chia sẻ khoảnh khắc cá nhân.
                           </p>
-                          <h3 className="testimonial__author">Adam Syndera</h3>
-                          <h4 className="testimonial__role">CEO, Agency</h4>
+                          <h3 className="testimonial__author">Nguyễn Minh Anh</h3>
+                          <h4 className="testimonial__role">Sinh viên</h4>
                         </div>
                       </div>
                     </SwiperSlide>
-
-                    <SwiperSlide className="swiper-slide ">
-                      <div className="testimonial__slide">
-                        <div className="testimonial__inner-2">
-                          <h2 className="testimonial__title-2">
-                            Amazing digital service
-                          </h2>
-                          <p className="testimonial__text-2">
-                            We were there right at the beginning just when the
-                            concept for search engine optimisation taking office
-                            and the full of internet. So wewe’ve grown to employ
-                            than 50 talented specialists with diverse
-                            experiences and broad skill sets of huge markers.
-                          </p>
-                          <h3 className="testimonial__author">Adam Syndera</h3>
-                          <h4 className="testimonial__role">CEO, Agency</h4>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-
                     <SwiperSlide>
                       <div className="testimonial__slide">
                         <div className="testimonial__inner-2">
                           <h2 className="testimonial__title-2">
-                            Amazing digital service
+                            Trải nghiệm mạng xã hội hiện đại, bảo mật
                           </h2>
                           <p className="testimonial__text-2">
-                            We were there right at the beginning just when the
-                            concept for search engine optimisation taking office
-                            and the full of internet. So wewe’ve grown to employ
-                            than 50 talented specialists with diverse
-                            experiences and broad skill sets of huge markers.
+                            OCCO có giao diện đẹp, dễ dùng và rất chú trọng bảo mật. Gia đình tôi yên tâm cho các con sử dụng để học hỏi và kết nối cộng đồng.
                           </p>
-                          <h3 className="testimonial__author">Adam Syndera</h3>
-                          <h4 className="testimonial__role">CEO, Agency</h4>
+                          <h3 className="testimonial__author">Lê Thị Hồng</h3>
+                          <h4 className="testimonial__role">Phụ huynh</h4>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="testimonial__slide">
+                        <div className="testimonial__inner-2">
+                          <h2 className="testimonial__title-2">
+                            OCCO lan tỏa giá trị tích cực
+                          </h2>
+                          <p className="testimonial__text-2">
+                            Tôi thích OCCO vì cộng đồng thân thiện, nhiều hoạt động ý nghĩa và luôn khuyến khích chia sẻ những điều tốt đẹp mỗi ngày.
+                          </p>
+                          <h3 className="testimonial__author">Phạm Quốc Bảo</h3>
+                          <h4 className="testimonial__role">Nhân viên văn phòng</h4>
                         </div>
                       </div>
                     </SwiperSlide>

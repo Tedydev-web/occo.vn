@@ -25,10 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/occo2": [
+    "/occo3/contact": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/occo2.js"
+      "static/chunks/pages/occo3/contact.js"
+    ],
+    "/occo3/legal": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/occo3/legal.js"
+    ],
+    "/occo3/terms": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/occo3/terms.js"
     ]
   },
   "ampFirstPages": []
