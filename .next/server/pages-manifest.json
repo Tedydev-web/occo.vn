@@ -2,6 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/occo1": "pages/occo1.js",
-  "/portfolio-v2": "pages/portfolio-v2.js"
+  "/occo2": "pages/occo2.js"
 }
